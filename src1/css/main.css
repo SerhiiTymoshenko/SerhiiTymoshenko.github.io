@@ -105,7 +105,8 @@ section {
 .main {
   padding: 3rem 0 5rem 0;
   background-size: cover;
-  height: 100vh;
+  
+  background: url(../img/bcg-1.jpg) no-repeat center center;
   /*ПОДЗАГОЛОВОК*/
   /*МАРКЕТИНГ*/
   /*ОКНА ДЛЯ ЗАПОЛНЕНИЯ*/
