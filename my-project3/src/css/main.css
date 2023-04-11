@@ -17,6 +17,9 @@ body {
   margin: 0 auto;
   padding: 0px 15px;
 }
+:root {
+  --primary-color: #007FFF;
+}
 .page {
   flex: 1 1 auto;
 }
