@@ -35,14 +35,4 @@ menuLinks.forEach(link => {
   });
 });
 
-if (window.navigator && window.navigator.splashscreen && window.navigator.splashscreen.hide) {
-  window.navigator.splashscreen.hide();
-  setTimeout(function() {
-    if (typeof window.StatusBar !== 'undefined') {
-      window.StatusBar.styleDefault();
-      window.StatusBar.overlaysWebView(false);
-      window.StatusBar.backgroundColorByHexString('#FFFF00'); // изменить цвет на синий (#4285F4)
-    }
-  }, 500);
-}
 
