@@ -1,0 +1,43 @@
+@import url("scid.css");
+body {
+  font-family: "Poppins";
+  font-size: 16px;
+  font-weight: 300;
+  color: #81818B;
+
+}
+
+[class*="__container"] {
+  max-width: 1310px;
+  margin: 0 auto;
+  padding: 0px 15px;
+  margin-bottom: 3rem
+}
+
+.section1 {
+padding: 3rem 0 3rem 0;
+}
+.section1__row {
+width: 100%;
+height: 5rem;
+background-color: red;
+}
+
+
+/*SLIDERS*/
+.container {
+  width: 100%;
+  padding-left: 15px;
+}
+.section__slider{
+position: absolute;
+left: 15px
+}
+.slick-slider-box {
+padding: 3rem 0;
+background-color: red;
+margin: 0 25px 0 0;
+}
+.slick-slider .slick-list{
+  padding-left: 0 !important;
+}
